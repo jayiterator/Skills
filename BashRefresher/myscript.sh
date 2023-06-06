@@ -141,8 +141,24 @@ NAME="Creator"
 
 # FUNCTION
 
-function sayHello() {
-    echo "Hello World"
-}
+# function sayHello() {
+#     echo "Hello World"
+# }
 
-sayHello
+# sayHello
+
+# FUNCTION WITH PARAMS
+
+# function greet() {
+#     echo "Hello, I am $1 and I am $2"
+# }
+
+# greet "Jayson" "24"
+
+
+# CREATE FOLDER AND WRITE TO A FILE
+
+mkdir hello
+touch "hello/world.txt"
+echo "Hello World" >> "hello/world.txt"
+echo "Created hello/world.txt"
